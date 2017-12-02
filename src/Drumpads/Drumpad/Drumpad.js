@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import drumpad from './Drumpad.css'
+import './Drumpad.css'
 
-class App extends Component {
+class Drumpad extends Component {
   render() {
     return (
-      <div className={drumpad}></div>
+      <div className="DrumpadWrapper" onClick={() => alert('click')}>
+        <div className="Drumpad"></div>
+      </div>
     );
   }
 }
 
-export default App;
+export default Drumpad;

@@ -1,0 +1,11 @@
+.Drumpads {
+  flex: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 100vh;
+  width: 100vw;
+  background: #3A3843;
+}
